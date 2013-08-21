@@ -133,7 +133,7 @@ class Calculator(QtGui.QWidget):
    elif self.sender() == self.Pow:
     self.textAns = self.textAns + '**'
    elif self.sender() == self.Sqrt:
-    self.textAns = self.textAns + '**1/'   
+    self.textAns = self.textAns + '**(1/'   
    elif self.sender() == self.pour:
     self.textAns = self.textAns + '/100'
    elif self.sender() == self.neg:
